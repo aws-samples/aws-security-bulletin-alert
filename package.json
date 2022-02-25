@@ -1,0 +1,28 @@
+{
+  "name": "cve-alert",
+  "version": "0.1.0",
+  "bin": {
+    "cve-alert": "bin/cve-alert.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assertions": "1.139.0",
+    "@aws-lambda-powertools/logger": "^0.6.0",
+    "@types/node": "10.17.27",
+    "aws-cdk": "1.139.0",
+    "aws-lambda": "^1.0.7",
+    "rss-parser": "^3.12.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7",
+    "@aws-cdk/aws-events-targets": "1.139.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda-nodejs": "1.139.0",
+    "@aws-cdk/core": "1.139.0",
+    "source-map-support": "^0.5.16"
+  }
+}
